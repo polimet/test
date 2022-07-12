@@ -6,11 +6,13 @@ public class Test {
 		// TODO Auto-generated method stub
      System.out.println("My 1st program");
      
-     System.out.println("My 1st program");
-
-System.out.println("This is Mercy's commit");
+ 
      
       System.out.println("neeraja 1st program");
+      
+      
+      
+      
      
 	}
 
