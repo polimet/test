@@ -1,6 +1,30 @@
-package com.statudent;
+package com.student;
 // Model or Bean 
 public class Student {
+
+	
+
+	/**
+	 * @param name
+	 * @param age
+	 * @param color
+	 * @param sex
+	 * @param country
+	 * @param address
+	 */
+	public Student(String name, int age, String color, String sex, String country, String address) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.color = color;
+		this.sex = sex;
+		this.country = country;
+		this.address = address;
+	}
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public String name;
 	public int age;
@@ -8,23 +32,10 @@ public class Student {
 	public String sex;
 	public String country;
 	public String address;
+	public static String status="active";
+	
 
-	public String getCountry() {
-		return country;
-	}
-
-	public void setCountry(String country) {
-		this.country = country;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
-	}
-
+ 
 	public String getName() {
 		return name;
 	}
@@ -56,6 +67,23 @@ public class Student {
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
 	
 	
 	
