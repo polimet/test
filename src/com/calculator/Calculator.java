@@ -2,21 +2,24 @@ package com.calculator;
 
 public class Calculator {
 
-	
+	// Addition Method declaration.
 	public int add(int a, int b) {
-		return a+b;
+	return a+b;
 	}
 	
+	// Subtraction Method declaration
 	public int sub(int a, int b) {
-		return a-b;
+	return a-b;
 	}
 	
+	//Multiplication Method declaration.	
 	public int mul(int a, int b) {
-		return a*b;
+	return a*b;
 	}
 	
+	//Division Method declaration
 	public int div(int a, int b) {
-		return a/b;
+	return a/b;
 	}
 	
 	
