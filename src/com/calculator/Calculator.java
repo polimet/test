@@ -17,7 +17,7 @@ public class Calculator {
 	return a*b;
 	}
 	
-	//Division Metod declaration
+	//Division Method declaration
 	public int div(int a, int b) {
 	return a/b;
 	}
