@@ -1,4 +1,4 @@
-package ch_08;
+package com;
 
 /* 8.1 (Sum elements column by column) Write a method that returns the sum of 
  * all the elements in a specified column in a matrix using the following header:
