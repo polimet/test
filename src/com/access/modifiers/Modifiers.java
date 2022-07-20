@@ -1,10 +1,10 @@
 package com.access.modifiers;
 
-public class Modifiers {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+class Modifiers {
+	  public static void main(String[] args) {
+	    Student myObj = new Student(); 
+	    System.out.println("Name: " + myObj.fname + " " + myObj.lname);
+	    System.out.println("Email: " + myObj.email);
+	    System.out.println("Age: " + myObj.age);
+	  }
 	}
-
-}
