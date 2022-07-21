@@ -2,6 +2,8 @@ package com.lydia;
 import java.util.Scanner;
 public class addinteger {
 
+	
+	
     public static void main(String[] Strings) {
 
         try (Scanner input = new Scanner(System.in)) {
