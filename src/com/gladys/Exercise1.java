@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Exercise1 {
 
 	
+	
+	
 	public static void main(String[] args) {
 		try (// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in)) {
@@ -20,7 +22,6 @@ public class Exercise1 {
 			  float f = celsius1 * (9.0f/5.0f) + 32;
 
 			//double  fahrenheit1 =(( celsius1 *(9/5)) / 32);
-			System.out.println(celsius1 + " degree  Celsius is equal to " + f + " in Fahrenheit");
 		}
 
 	}
