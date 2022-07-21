@@ -7,8 +7,8 @@ public class Exercise10{
     {
     	
     	
-    	Scanner in = new Scanner(System.in);
-        System.out.print("Input six non-negative digits: ");
+    	    Scanner in = new Scanner(System.in);
+                  System.out.print("Input six xxxxx-negative digits: ");
         int input = in.nextInt();
         int n1 = input / 100000 % 10;
         System.out.println("input>>>>>> " +input);
